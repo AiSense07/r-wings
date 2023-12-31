@@ -1,0 +1,209 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "employee",
+    "dateExported": "2023-04-26T18:06:37.039Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0fc5f3fe-23fe-4cd5-8592-9794123b0094",
+            "colId": "8cf8e5d4-13f7-4a2a-9d3d-4478a86976c1",
+            "containerId": "",
+            "name": "add franchise",
+            "url": "http://localhost:4001/addFrenchise",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-04-26T17:19:00.337Z",
+            "modified": "2023-04-26T17:19:00.337Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"franchise_name\" : \"new one Franchise\",\n  \"email\" : \"NewOne.radarsoft@gmail.com\",\n  \"mobile\" : 1234567840,\n  \"state\" : \"Gujarat\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ffa4c1c5-64c9-4758-919c-b11471cf065c",
+            "colId": "8cf8e5d4-13f7-4a2a-9d3d-4478a86976c1",
+            "containerId": "",
+            "name": "edit franchise",
+            "url": "http://localhost:4001/editFranchise",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-04-26T17:19:00.339Z",
+            "modified": "2023-04-26T17:19:00.339Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"6447b530d683948535b69a3a\",\n  \"address\": \"India, Asia, earth\",\n  \"city\": \"Surat\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e40a9ff2-084b-48f7-b71d-b40069f8ae44",
+            "colId": "8cf8e5d4-13f7-4a2a-9d3d-4478a86976c1",
+            "containerId": "",
+            "name": "delete franchise",
+            "url": "http://localhost:4001/deleteFranchise",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-04-26T17:19:00.340Z",
+            "modified": "2023-04-26T17:19:00.340Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : \"64476febc5e5abc051001770\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5df01c87-29f2-40d1-8245-e749412d1972",
+            "colId": "8cf8e5d4-13f7-4a2a-9d3d-4478a86976c1",
+            "containerId": "",
+            "name": "get franchise",
+            "url": "http://localhost:4001/getFranchise",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-04-26T17:19:00.341Z",
+            "modified": "2023-04-26T17:19:00.341Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "af963abc-0e11-4703-a96b-b0a2f07b140a",
+            "colId": "8cf8e5d4-13f7-4a2a-9d3d-4478a86976c1",
+            "containerId": "",
+            "name": "get enquiry",
+            "url": "http://localhost:4001/getEnquiry?userType=Employee",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-04-26T17:19:00.342Z",
+            "modified": "2023-04-26T17:19:00.342Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "userType",
+                    "value": "Employee",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "27525558-c08b-491d-b5ba-8b6a9da5b2b1",
+            "colId": "8cf8e5d4-13f7-4a2a-9d3d-4478a86976c1",
+            "containerId": "",
+            "name": "send enquiry",
+            "url": "http://localhost:4001/addEnquiry",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-04-26T17:19:00.343Z",
+            "modified": "2023-04-26T17:19:00.343Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"bhavin\",\n  \"email\": \"a@gmail.com\",\n  \"subject\": \"Api\",\n  \"message\": \"enquiry api\",\n  \"user_id\": \"\",\n  \"user_type\": \"Employee\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "df3263a8-7a48-4976-b7ea-e39768a41359",
+            "colId": "8cf8e5d4-13f7-4a2a-9d3d-4478a86976c1",
+            "containerId": "",
+            "name": "add sub franchise",
+            "url": "http://localhost:4001/addSubFrenchise",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-04-26T17:19:00.344Z",
+            "modified": "2023-04-26T17:19:00.344Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"sub_franchise_name\" : \"new one Sub Franchise\",\n  \"email\" : \"NewOne.radarsoft@gmail.com\",\n  \"mobile\" : 1234567840,\n  \"state\" : \"Gujarat\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bec6a26a-196c-4781-818f-aef27c8ce149",
+            "colId": "8cf8e5d4-13f7-4a2a-9d3d-4478a86976c1",
+            "containerId": "",
+            "name": "edit sub franchise",
+            "url": "http://localhost:4001/editSubFranchise",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-04-26T17:19:00.345Z",
+            "modified": "2023-04-26T17:19:00.345Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"6447b530d683948535b69a3a\",\n  \"address\": \"India, Asia, earth\",\n  \"city\": \"Surat\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "061e6f7d-0d2a-44ed-bce6-e1cd5c0fc0a6",
+            "colId": "8cf8e5d4-13f7-4a2a-9d3d-4478a86976c1",
+            "containerId": "",
+            "name": "delete sub franchise",
+            "url": "http://localhost:4001/deleteSubFranchise",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2023-04-26T17:19:00.346Z",
+            "modified": "2023-04-26T17:19:00.346Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : \"64476febc5e5abc051001770\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "67d896a7-23c6-419d-9cbc-b51b62da95a4",
+            "colId": "8cf8e5d4-13f7-4a2a-9d3d-4478a86976c1",
+            "containerId": "",
+            "name": "get sub franchise",
+            "url": "http://localhost:4001/getSubFranchise",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2023-04-26T17:19:00.347Z",
+            "modified": "2023-04-26T17:19:00.347Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "40cf21f5-8ac4-4a0b-a8b7-d76e99a97b88",
+            "colId": "8cf8e5d4-13f7-4a2a-9d3d-4478a86976c1",
+            "containerId": "",
+            "name": "edit Employee",
+            "url": "http://localhost:4001/editEmployee",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2023-04-26T17:51:22.901Z",
+            "modified": "2023-04-26T17:51:32.015Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"6447b530d683948535b69a3a\",\n  \"address\": \"India, Asia, earth\",\n  \"city\": \"Surat\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

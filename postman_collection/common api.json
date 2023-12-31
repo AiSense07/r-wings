@@ -1,0 +1,62 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "common api",
+    "dateExported": "2023-04-26T18:06:17.944Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0739b8bc-c680-4702-aabb-180807a0a4ea",
+            "colId": "d5344315-7c8f-468f-bf28-7858af5723fc",
+            "containerId": "",
+            "name": "getState",
+            "url": "http://localhost:4001/getState",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-04-26T17:19:00.318Z",
+            "modified": "2023-04-26T17:19:00.318Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6c97904f-f138-465d-92c0-6f16ccaef572",
+            "colId": "d5344315-7c8f-468f-bf28-7858af5723fc",
+            "containerId": "",
+            "name": "get city",
+            "url": "http://localhost:4001/getCity?state=maharashtra",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-04-26T17:19:00.319Z",
+            "modified": "2023-04-26T17:19:00.319Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "state",
+                    "value": "maharashtra",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "16672371-2acd-4367-8e80-50ef876d0659",
+            "colId": "d5344315-7c8f-468f-bf28-7858af5723fc",
+            "containerId": "",
+            "name": "get profile",
+            "url": "http://localhost:4001/getProfile",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-04-26T17:19:00.320Z",
+            "modified": "2023-04-26T17:26:18.248Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\" : \"6447b530d683948535b69a3a\",\n  \"user_type\" : \"Franchise\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
